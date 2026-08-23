@@ -96,6 +96,6 @@ zstandard>=0.22
 # without it the workflow runner can't produce the AppImage payload.
 # zstandard is needed by the native Steam CDN downloader for VSZTD chunk decompression.
 cryptography>=46.0.5 # not directly required, pinned by Snyk to avoid a vulnerability
-pyasn1>=0.6.2 # not directly required, pinned by Snyk to avoid a vulnerability
+pyasn1>=0.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
 soupsieve>=2.8.4 # not directly required, pinned by Snyk to avoid a vulnerability
 httplib2>=0.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
